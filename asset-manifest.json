@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/quetzal_shuttle_front/static/css/main.073c9b0a.css",
-    "main.js": "/quetzal_shuttle_front/static/js/main.d9340f8d.js",
-    "static/js/787.a764101f.chunk.js": "/quetzal_shuttle_front/static/js/787.a764101f.chunk.js",
-    "static/media/logo.svg": "/quetzal_shuttle_front/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/quetzal_shuttle_front/index.html",
-    "main.073c9b0a.css.map": "/quetzal_shuttle_front/static/css/main.073c9b0a.css.map",
-    "main.d9340f8d.js.map": "/quetzal_shuttle_front/static/js/main.d9340f8d.js.map",
-    "787.a764101f.chunk.js.map": "/quetzal_shuttle_front/static/js/787.a764101f.chunk.js.map"
+    "main.css": "/quetzal_shuttle_front/build/static/css/main.073c9b0a.css",
+    "main.js": "/quetzal_shuttle_front/build/static/js/main.7c340ac6.js",
+    "static/js/787.a764101f.chunk.js": "/quetzal_shuttle_front/build/static/js/787.a764101f.chunk.js",
+    "static/media/logo.svg": "/quetzal_shuttle_front/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/quetzal_shuttle_front/build/index.html",
+    "main.073c9b0a.css.map": "/quetzal_shuttle_front/build/static/css/main.073c9b0a.css.map",
+    "main.7c340ac6.js.map": "/quetzal_shuttle_front/build/static/js/main.7c340ac6.js.map",
+    "787.a764101f.chunk.js.map": "/quetzal_shuttle_front/build/static/js/787.a764101f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d9340f8d.js"
+    "static/js/main.7c340ac6.js"
   ]
 }
