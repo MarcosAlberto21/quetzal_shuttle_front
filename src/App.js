@@ -5,18 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Quetzal Shuttle
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <a href="https://ibb.co/WFsq4cc"><img src="https://i.ibb.co/7Vb8dGG/Sin-t-tulo.png" alt="Sin-t-tulo" border="0" /></a>
       </header>
     </div>
   );
