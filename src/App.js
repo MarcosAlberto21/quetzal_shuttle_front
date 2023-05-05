@@ -1,13 +1,44 @@
-import logo from './logo.svg';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import {Login} from './views/Login/Login'
+import {Maintenance} from './views/Maintenance/Maintenance'
+import {Register} from './views/Register/Register'
+import { Reservation } from './views/Reservation/Reservation';
+
+import {NavMenu} from './views/NavMenu/NavMenu'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a href="https://ibb.co/WFsq4cc"><img src="https://i.ibb.co/7Vb8dGG/Sin-t-tulo.png" alt="Sin-t-tulo" border="0" /></a>
-      </header>
-    </div>
+    <>
+      <HashRouter>
+        <NavMenu/>
+        <Routes>
+          <Route path='/:date/:time/:no_passengers' element={<Reservation/>}/>
+          
+          <Route path='/Login' element={<Login/>}/>
+          <Route path='/Register' element={<Register/>}/>
+          
+          <Route path='/Maintenance'>
+
+          <Route path=':cars' element={<Maintenance/>}/>
+          </Route>
+          <Route path='*' element={<p>Not found</p>}/>
+
+
+
+          
+        </Routes>
+
+      </HashRouter>
+
+
+      {/* <div className="App">
+        <header className="App-header">
+          <img src="https://i.ibb.co/7Vb8dGG/Sin-t-tulo.png" alt="Sin-t-tulo" border="0" />
+        </header>
+      </div> */}
+    </>
   );
 }
 
