@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quetzal_shuttle_front/static/css/main.073c9b0a.css",
-    "main.js": "/quetzal_shuttle_front/static/js/main.386ef96f.js",
+    "main.css": "/quetzal_shuttle_front/static/css/main.02190608.css",
+    "main.js": "/quetzal_shuttle_front/static/js/main.a2a21943.js",
     "static/js/787.a764101f.chunk.js": "/quetzal_shuttle_front/static/js/787.a764101f.chunk.js",
     "index.html": "/quetzal_shuttle_front/index.html",
-    "main.073c9b0a.css.map": "/quetzal_shuttle_front/static/css/main.073c9b0a.css.map",
-    "main.386ef96f.js.map": "/quetzal_shuttle_front/static/js/main.386ef96f.js.map",
+    "main.02190608.css.map": "/quetzal_shuttle_front/static/css/main.02190608.css.map",
+    "main.a2a21943.js.map": "/quetzal_shuttle_front/static/js/main.a2a21943.js.map",
     "787.a764101f.chunk.js.map": "/quetzal_shuttle_front/static/js/787.a764101f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.386ef96f.js"
+    "static/css/main.02190608.css",
+    "static/js/main.a2a21943.js"
   ]
 }
