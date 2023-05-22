@@ -9,11 +9,18 @@ import {NavMenu} from './views/NavMenu/NavMenu'
 
 
 function App() {
+
+
+
   return (
     <>
       <HashRouter>
         <NavMenu/>
+
         <Routes>
+
+        <Route path='/' element={<Reservation/>}/>
+
           <Route path='/:date/:time/:no_passengers' element={<Reservation/>}/>
           
           <Route path='/Login' element={<Login/>}/>

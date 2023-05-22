@@ -1,0 +1,22 @@
+.cardCustom {
+  padding: 15px; /* Añade espacio alrededor del contenido */
+}
+
+.imgCustom {
+	box-shadow:  rgba(0, 0, 0, 0.32) 0px 2px 100px 0px;
+
+}
+
+.contenedor {
+  display: flex; /* Usa flexbox para centrar verticalmente */
+  align-items: center; /* Centra verticalmente en el eje Y */
+  justify-content: center; /* Centra horizontalmente en el eje X */
+  height: 100vh; /* Establece la altura del contenedor al 100% de la altura de la ventana */
+}
+
+
+.css-1k3rt34-MuiPaper-root-MuiCard-root{
+  background-color: rgba(222, 234, 227, 0.897) !important; 
+	box-shadow:  rgba(0, 0, 0, 0.32) 0px 0px 300px 0px !important;
+  border-radius: 10px !important; 
+}
