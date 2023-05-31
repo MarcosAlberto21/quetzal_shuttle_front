@@ -4,7 +4,7 @@ import { Login } from './views/Login/Login'
 import { Maintenance } from './views/Maintenance/Maintenance'
 import { Register } from './views/Register/Register'
 import { Reservation } from './views/Reservation/Reservation';
-
+import { Type_vehicle } from './views/Maintenance/Type_vehicle';
 import { NavMenu } from './views/NavMenu/NavMenu'
 
 import { AuthProvider } from './auth';
@@ -28,6 +28,7 @@ function App() {
             <Route path='/Maintenance/'>
 
               <Route path='cars' element={<Maintenance />} />
+              <Route path='type_vehicle' element={<Type_vehicle />} />
             </Route>
             <Route path='*' element={<p>Not found</p>} />
 
