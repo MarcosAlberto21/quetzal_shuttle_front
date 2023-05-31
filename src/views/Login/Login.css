@@ -1,0 +1,6 @@
+.contenedor {
+  display: flex; /* Usa flexbox para centrar verticalmente */
+  align-items: center; /* Centra verticalmente en el eje Y */
+  justify-content: center; /* Centra horizontalmente en el eje X */
+  height: 100vh; /* Establece la altura del contenedor al 100% de la altura de la ventana */
+}
