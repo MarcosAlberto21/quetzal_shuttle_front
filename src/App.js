@@ -1,13 +1,12 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import { Login } from './views/Login/Login'
-import { Maintenance } from './views/Maintenance/Maintenance'
 import { Register } from './views/Register/Register'
 import { Reservation } from './views/Reservation/Reservation';
-import { Type_vehicle } from './views/Maintenance/Type_vehicle';
 import { NavMenu } from './views/NavMenu/NavMenu'
 
-import { AuthProvider } from './auth';
+import { AuthProvider, AuthRoute } from './auth';
+import Footer from '../src/components/footer';
 
 
 function App() {
@@ -18,22 +17,19 @@ function App() {
     <>
       <HashRouter>
         <AuthProvider>
-          <NavMenu />
+          <AuthRoute>
+            <NavMenu />
+          </AuthRoute>
           <Routes>
             <Route path='/' element={<Reservation />} />
             <Route path='/:date/:time/:no_passengers' element={<Reservation />} />
             <Route path='/Login' element={<Login />} />
             <Route path='/Register' element={<Register />} />
 
-            <Route path='/Maintenance/'>
-
-              <Route path='cars' element={<Maintenance />} />
-              <Route path='type_vehicle' element={<Type_vehicle />} />
-            </Route>
-            <Route path='*' element={<p>Not found</p>} />
+            {/* <Route path='*' element={<p>Not found</p>} /> */}
 
           </Routes>
-
+          {/* <Footer /> */}
         </AuthProvider>
       </HashRouter>
 

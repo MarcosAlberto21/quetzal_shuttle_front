@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Drawer {
+  margin-left: 74px;
+  padding: 3%;
+}
